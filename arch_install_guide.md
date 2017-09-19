@@ -178,9 +178,12 @@ Install grub:
 # pacman -S grub os-prober
 ```
 
+then do:
+
 ```
-# grub-install --recheck /dev/sda
+# grub-install --target=i386-pc --recheck /dev/sdx
 ```
+where /dev/sdx is the partitioned disk where grub is to be installed.
 
 ```
 # grub-mkconfig -o /boot/grub/grub.cfg
