@@ -242,32 +242,11 @@ Installing bash-completion is helpful:
 $ sudo pacman -S bash-completion
 ```
 
-Install Xserver (and Intel driver):
-
-```
-sudo pacman -S xorg-server xorg-xinit xorg-twm xterm
-sudo pacman -S xf86-video-intel
-```
-
-Install sound software:
-
-```
-sudo pacman -S pulseaudio pulseaudio-alsa
-sudo pacman -S alsa-utils alsa-plugins alsa-lib
-```
-
-Install NetworkManager and enable it:
-
-```
-sudo pacman -S networkmanager
-sudo systemctl enable NetworkManager.service
-```
-
-We will download the script for an easy and quick installation.
+We will download the scripts for an easy and quick installation.
 
 ```
 $ sudo pacman -S git
 $ git clone https://github.com/jefx07/archi3
-$ cd archi3
+$ cd archi3/installation
 ```
 
