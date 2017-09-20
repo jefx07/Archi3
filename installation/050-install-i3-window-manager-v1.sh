@@ -56,14 +56,12 @@ pacaur --needed --noedit -S \
   i3status-git \
   acpi \
   arandr \
-  audacious \
   compton-git \
   dmenu \
   dunst \
   evince \
   feh \
   file-roller \
-  firefox \
   galculator \
   glxinfo \
   gsimplecal \
@@ -74,8 +72,6 @@ pacaur --needed --noedit -S \
   lxinput \
   mpv \
   network-manager-applet \
-  numix-gtk-theme \
-  numix-icon-theme-git \
   pavucontrol \
   pulseaudio-ctl \
   python \
@@ -85,7 +81,6 @@ pacaur --needed --noedit -S \
   scrot \
   thunar \
   thunar-archive-plugin \
-  thunderbird \
   ttf-font-awesome \
   ttf-hack \
   tumbler \
