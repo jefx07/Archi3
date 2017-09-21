@@ -14,7 +14,7 @@ cd -
 
 echo "Installing base packages..."
 pacaur --noedit -S \
-  i3-gaps-next-git \
+  i3-gaps \
   termite-git
 
 echo "Installing window manager dependencies..."
@@ -72,8 +72,6 @@ pacaur --needed --noedit -S \
   lxinput \
   mpv \
   network-manager-applet \
-  pavucontrol \
-  pulseaudio-ctl \
   python \
   ranger \
   rofi \
@@ -86,6 +84,7 @@ pacaur --needed --noedit -S \
   tumbler \
   viewnior \
   vim \
+  volumeicon \
   w3m \
   xclip \
   xcursor-breeze \
@@ -93,4 +92,7 @@ pacaur --needed --noedit -S \
   xfburn \
   xfce4-power-manager \
   youtube-dl
+
+#  pavucontrol \
+#  pulseaudio-ctl \
 
