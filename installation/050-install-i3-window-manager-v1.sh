@@ -1,17 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-echo "Installing prerequisites for pacaur..."
-sudo pacman --needed -S base-devel fakeroot jshon expac
-
-echo "Installing pacaur..."
-mkdir /tmp/tmp-pacaur
-cd /tmp/tmp-pacaur
-wget https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=pacaur
-makepkg
-sudo pacman --noconfirm -U *.tar.xz
-cd -
-
 echo "Installing base packages..."
 pacaur --noedit -S \
   i3-gaps \
