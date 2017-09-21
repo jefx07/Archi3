@@ -45,7 +45,7 @@ pacaur --needed --noedit -S \
   i3status-git \
   acpi \
   arandr \
-  compton-git \
+  compton \
   dmenu \
   dunst \
   evince \
