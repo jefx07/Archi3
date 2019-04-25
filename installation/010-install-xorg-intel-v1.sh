@@ -8,3 +8,7 @@ echo "Installing the Xorg Server..."
 sudo pacman --noconfirm --needed -S xorg-server xorg-xinit xorg-twm xterm
 sudo pacman --noconfirm --needed -S xf86-video-intel
 
+echo "################################################################"
+echo "###################    xorg installed     ######################"
+echo "################################################################"
+
