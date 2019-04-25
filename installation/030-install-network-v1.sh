@@ -18,7 +18,7 @@ echo "Installing Broadcom wireless driver"
 
 sudo pacman --noconfirm --needed -S broadcom-wl-dkms
 
-sudo cp 20-mac-address.conf /etc/NetworkManager/conf.d
+#sudo cp 20-mac-address.conf /etc/NetworkManager/conf.d
 
 echo "Driver installed"
 
