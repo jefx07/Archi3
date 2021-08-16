@@ -1,4 +1,9 @@
+!!! .Xresources
+
+! DPI
 Xft.dpi: 96
+
+! Font rendering
 Xft.antialias: true
 Xft.hinting: true
 Xft.rgba: rgb
@@ -6,47 +11,64 @@ Xft.autohint: false
 Xft.hintstyle: hintfull
 Xft.lcdfilter: lcddefault
 
-! rofi
-rofi.modi: run
-rofi.font: Hack 15
-rofi.width: 100
-rofi.lines: 5
-rofi.columns: 1
-rofi.opacity: 80
-!                    bg       fg      altbg    hlbg     hlfg
-rofi.color-normal: #282828, #ebdbb2, #282828, #ebdbb2, #282828
-rofi.color-urgent: #282828, #ebdbb2, #282828, #ebdbb2, #282828
-rofi.color-active: #282828, #ebdbb2, #282828, #ebdbb2, #282828
-rofi.color-window: #282828, #282828
-rofi.bw: 0
-rofi.location: 2
-rofi.padding: 100
-rofi.fuzzy: false
+! Fonts
+URxvt.font: xft:DejaVu Sans Mono:size=11:antialias=true
+!URxvt.font: xft:Hack:size=11:antialias=true,xft:Inconsolata Nerd Font Mono:size=11
 
-! === gruvbox color scheme ===
-*background: #1d2021
-*foreground: #ebdbb2
-! Black + DarkGrey
-*color0:  #282828
-*color8:  #928374
-! DarkRed + Red
-*color1:  #cc241d
-*color9:  #fb4934
-! DarkGreen + Green
-*color2:  #98971a
-*color10: #b8bb26
-! DarkYellow + Yellow
-*color3:  #d79921
-*color11: #fabd2f
-! DarkBlue + Blue
-*color4:  #458588
-*color12: #83a598
-! DarkMagenta + Magenta
-*color5:  #b16286
-*color13: #d3869b
-! DarkCyan + Cyan
-*color6:  #689d6a
-*color14: #8ec07c
-! LightGrey + White
-*color7:  #a89984
-*color15: #ebdbb2
+
+! URxvt
+URxvt.cursorBlink: on
+URxvt.cutchars: <>│
+URxvt.internalBorder: 4
+URxvt.letterSpace: -1
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.perl-ext-common: default,matcher
+URxvt.pointerBlank: true
+URxvt.saveLines: 10000
+URxvt.scrollBar: false
+URxvt.scrollTTyKeypress: true
+URxvt.scrollTTyOutput: false
+URxvt.secondaryScroll: true
+URxvt.urgentOnBell: true
+URxvt.url-launcher: sensible-browser
+URxvt.matcher.button: 1
+
+URxvt.background: #1B2B34
+URxvt.foreground: #C0C5CE
+
+#define base00 #1B2B34
+#define base01 #343D46
+#define base02 #4F5B66
+#define base03 #65737E
+#define base04 #A7ADBA
+#define base05 #C0C5CE
+#define base06 #CDD3DE
+#define base07 #D8DEE9
+#define base08 #EC5f67
+#define base09 #F99157
+#define base0A #FAC863
+#define base0B #99C794
+#define base0C #5FB3B3
+#define base0D #6699CC
+#define base0E #C594C5
+#define base0F #AB7967
+
+*.cursorColor:  #00CD00
+
+*.color0:       base00
+*.color1:       base08
+*.color2:       base0B
+*.color3:       base0A
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0C
+*.color7:       base05
+*.color8:       base03
+*.color9:       base08
+*.color10:      base0B
+*.color11:      base0A
+*.color12:      base0D
+*.color13:      base0E
+*.color14:      base0C
+*.color15:      base07
