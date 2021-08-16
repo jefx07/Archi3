@@ -1,0 +1,57 @@
+# Things to do after installing Fedora i3 (spin)
+xrdb 
+xmodmap
+xset 
+xsetroot
+xinput
+xdg-user-dirs # then run `xdg-user-dirs-update`
+thunar-volman
+thunar-archive-plugin
+file-roller
+wireless-tools
+lm_sensors
+acpi
+polkit-gnome
+git
+make
+perl-English
+perl-File_copy
+pandoc
+lxappearance
+vim vim-X11
+zsh
+yad xdotool
+neofetch
+fontawesome-fonts
+google-noto-sans-fonts
+google-noto-sans-display-fonts
+vim-X11
+zsh
+libva-intel-driver libva-utils
+papirus-icon-theme
+breeze-cursor-theme
+picom
+i3blocks
+# rpmfusion repo
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+mpv
+youtube-dl
+autoconf automake make	# ?
+python3-keyring
+libsecret
+mailx
+libreport-plugin-mailx
+postfix
+rpmrebuild
+keepassxc
+gnome-font-viewer
+xss-lock
+bluez-tools
+
+dnf remove azote brightlight dex-autostart
+
+# things to do:
+timedatectl set-local-rtc 0
+systemctl disable --now firewalld.service
+systemctl disable --now ModemManager.service
+
