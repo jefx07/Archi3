@@ -13,9 +13,9 @@ lm_sensors
 acpi
 polkit-gnome
 git
-make
 perl-English
-perl-File_copy
+perl-Template-Toolkit
+perl-IPC-Run3
 pandoc
 lxappearance
 vim vim-X11
