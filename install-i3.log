@@ -14,13 +14,14 @@ acpi
 polkit-gnome
 git
 perl-English
-perl-Template-Toolkit
 perl-IPC-Run3
+perl-Template-Toolkit
 pandoc
 lxappearance
 vim vim-X11
 zsh
-yad xdotool
+yad
+xdotool
 neofetch
 fontawesome-fonts
 google-noto-sans-fonts
