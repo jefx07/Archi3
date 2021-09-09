@@ -1,7 +1,7 @@
 !!! .Xresources
 
 ! DPI
-Xft.dpi: 96
+Xft.dpi: 120
 
 ! Font rendering
 Xft.antialias: true
@@ -12,7 +12,7 @@ Xft.hintstyle: hintfull
 Xft.lcdfilter: lcddefault
 
 ! Fonts
-URxvt.font: xft:Source Code Pro:size=11:antialias=true
+URxvt.font: xft:Source Code Pro:size=12:antialias=true
 !URxvt.font: xft:Hack:size=11:antialias=true,xft:Inconsolata Nerd Font Mono:size=11
 
 ! URxvt
