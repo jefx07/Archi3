@@ -1,0 +1,58 @@
+install task-desktop --no-install-recommends
+
+# instead manually install the following from recommends
+
+- i3
+- xdg-utils
+- fonts-symbola
+- avahi-daemon
+- libnss-mdns
+- anacron
+- iw
+- alsa-utils
+- libu2f-udev
+- sudo
+
+# deps and recommends from task-xfce-desktop
+#
+# Depends:
+
+- lightdm
+- tasksel
+
+# Recommends:
+
+- dbus-user-session
+- dbus-x11
+#- network-manager-gnome
+- synaptic
+- tango-icon-theme
+- parole
+- quodlibet
+
+######
+#
+- thunar --no-install-recommends
+- thunar-volman
+- gvfs
+- policykit-1-gnome
+- tumbler
+- udisks2
+- xdg-user-dirs
+
+######
+- network-manager-gnome
+
+# important drivers on new laptop 
+# enable: contrib non-free (or dl and copy to system?)
+
+- firmware-atheros
+- firmware-realtek
+
+su -
+mkdir /media/usb-drive
+mount /dev/sdxx /media/usb-drive
+cd /media/usb-drive
+# ...
+umount /media/usb-drive
+
